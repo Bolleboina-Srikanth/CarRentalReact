@@ -1,0 +1,281 @@
+.signup-p-c1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+}
+.signup-container1 {
+   /* background-color: #fff; */
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   width: 150vh;
+   height: 85vh;
+   display: flex;
+   flex-direction: row;
+   
+ 
+}
+.signup-form1 {
+   width: 95%;
+   height: 95%;
+   
+}
+.signup-Welcome-greetings-signinbtn1 {
+   width: 90%;
+   height: 35%;
+   display: flex;
+   flex-direction: column;
+}
+.signup-welcome1 {
+   width: 100%;
+   height: 30%;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+}
+.signup-greetings1 {
+   height: 30%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.signup-signinbtn1 {
+   height: 40%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#idsignin-for-signup1 {
+   height: 60%;
+   width: 40%;
+   background-color: royalblue;
+   color: white;
+   border: 1px solid #cfced4;
+   border-radius: 1em;
+}
+.signUp-form-car1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* background-color: #e2e2e2; */
+   height: 100%;
+   width: 55%;
+}
+.signup-title-icons1 {
+   height: 28%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.signup-title-image1 {
+   height: 32%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.signup-createaccount1 {
+   height: 30%;
+   width: 100%;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   align-items: end;
+   font-size: large;
+   font-weight: bold;
+   /* background-color: red ; */
+}
+.social-icons1 {
+   height: 23%;
+   width: 18%;
+   display: flex;
+   justify-content: space-around;
+   justify-content: space-between;
+   align-items: start;
+}
+.g-icon1 {
+   display: flex;
+   border: 1px solid #eee;
+   border-radius: .2em;
+   padding: 2px;
+}
+.signup-details1 {
+   height: 59%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+.signup-textfield1{
+   width: 100%;
+   height: 13%;
+   display: flex;
+   justify-content: space-between;
+}
+.MuiFormHelperText-root1 {
+   margin-top: 0px !important;
+}
+.signup-button1 {
+   height: 13%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+#signup-submit-btn1 {
+   height: 70%;
+   width: 30%;
+   border-radius: 1em;
+   background-color: royalblue;
+   color: white;
+   font-weight: 700;
+   border: none;
+}
+.toggle-left1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: royalblue;
+   color: ghostwhite;
+   border-radius: 8px 70px 70px 8px;
+   height: 100%;
+   width: 45%;
+}
+
+#name-input{
+   text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .signup-p-c {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+}
+
+.signup-container {
+   background-color: #fff;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   /* position: relative;
+    overflow: hidden; 
+   width: 65vw;
+   height: 85vh;
+   display: flex;
+   flex-direction: row;
+}
+
+.signUp-form {
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   background-color: #fff;
+   height: 85vh;
+   width: 55%;
+   
+}
+
+.signUp-form input {
+   background-color: #eee;
+   border: none;
+   margin: 1vh 0;
+   padding: 1vh 5vh 1vh 1vh;
+   border: 13px;
+   border-radius: 0.3em;
+   outline: none;
+   height: 6vh;
+}
+
+.login-btn {
+   /* border: none;
+   width: 150px;
+   height: 35px;
+   color: white;
+   background-color: #3C486B;
+   border-radius: 1em;
+   margin-top: 2vh; 
+}
+
+#signUp-btn,
+#login-btn {
+   width: 20vh;
+   height: 7vh;
+   background-color: #3C486B;
+   color: white;
+   border: 1px solid #cfced4;
+   border-radius: 1em;
+}
+#create-txt{
+   font-weight: bold;
+   font-size: 4vh;
+   margin: 0px 0px;
+}
+.toggle-left {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #3C486B;
+   border-radius: 8px 70px 70px 8px;
+   height: 100%;
+   width: 45%;
+}
+
+.g-icon {
+   border: 1px solid #ccc;
+   border-radius: 20%;
+   margin: 0 0.5vh;
+   color: #3C486B;
+} */

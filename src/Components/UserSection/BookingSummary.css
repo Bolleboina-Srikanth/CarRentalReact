@@ -1,0 +1,190 @@
+.booking-summary-p-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.booking-summary-child-c {
+    width: 60%;
+    height: 90%;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border-radius: .5em;
+}
+.b-confirm {
+    display: flex;
+    width: 99%;
+    height: 18%;
+    background-color: #e0faef;
+    border-radius: .3em;
+    margin: 3px 4px 0px 4px;
+}
+.tick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    height: 100%;
+}
+#tickicon {
+    width: 5vw;
+    height: 10vh;
+    border-radius: .5em;
+    background-color: white;
+}
+.b-text {
+    padding-top: 1vh;
+    width: 100%;
+    text-align: left;
+}
+.b-full-details{
+    text-align: left;
+    width: 100%;
+    height: 82%;
+    padding: 1vw;
+}
+.guest{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px;
+    height: 15vh;
+
+}
+.b-pickup{
+       width: 9.8vw;
+}
+.guest-contact{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px;
+}
+.email-b{
+    width: 13vw;
+}
+.qr{
+    display: flex;
+    font-size:large;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 28vh;
+    border-radius: .4em;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    background-color: #f7f7f9;
+    margin-top: 8vh;
+    
+}
+.hpy-j{
+    /* border: 1px solid red; */
+    width: 25vw;
+}
+ .price-summary {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    text-align: left;
+    width: 30%;
+    height: 74%;
+    margin-left: 1vw;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border-radius: 1em;
+}
+.b-dates{
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    height: 35%;
+    border-radius: .6em;
+}
+.pickandDrop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.booking-price{
+    padding: 5px;
+    height: 48vh;
+    margin-top: 2%;
+}
+.price-details{
+    display: flex;
+    justify-content: space-between;
+}
+.download-invoice{
+    /* width: 100%; */
+    padding: 0 2rem;
+    height: 7vh;
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: rgb(8, 153, 8);
+}
+.namediv{
+    width: 30%;
+}
+.emaildiv{
+    width: 30%;
+    font-size: auto;
+}
+
+.reservation-font-color{
+    color: #414280;
+    font-weight: bold;
+    font-size: 90%;
+}
+.reservation-gray-color{
+    color: gray;
+} 
+.rentformatted{
+    width: 50%;
+}
+
+.download-p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 2.5rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  

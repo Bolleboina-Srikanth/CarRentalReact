@@ -1,0 +1,92 @@
+.customers-p-c{
+  display: flex;
+  flex-direction: column;
+}
+.add-customer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100vw;
+    height: 7vh;
+    text-align: right;
+}
+#add-customer-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid ;
+    border-radius: .2em;
+    width: 15vw;
+    height: 95%;
+    color: white;
+    cursor: pointer;
+}
+.add-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 35vh;
+}
+.admin-form-input{
+    display: flex;
+    justify-content: space-between;
+    width: 36vw;
+    height: 9vh;
+}
+
+.admin-form-c{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.admin-form-c2{
+  display: flex;
+  flex-direction: column;
+  height: 39vh;
+  justify-content: space-between;
+}
+
+.MuiFormHelperText-root {
+    margin-top: 0px !important;
+    margin-left: 0px;
+  }
+  .admin-select-element{
+    width: 17.3vw;
+    height: 6vh;
+    margin-right: 6px;
+    border-radius: .2em;
+    outline: none;
+    background: rgb(232, 241, 250);
+    border: 1px solid silver;
+  }
+  .card-size-C{
+    width: 85%;
+  }
+ 
+  .viewUser{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+  .viewclose{
+    border: none;
+    outline: none;
+    width: 9vw;
+    height: 7vh;
+    border-radius: .4em;
+  }
+  #edithheight{
+    height: 50vh;
+  }
+ .table-card-container-c{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ }
+ .table-card-c{
+  width: 92%;
+  box-shadow: 0 0 10px rgb(220, 216, 216);
+ }

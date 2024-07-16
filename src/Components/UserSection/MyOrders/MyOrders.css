@@ -1,0 +1,100 @@
+.myorders-p{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+.no-orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 65vh;
+    font-weight: bold;
+    font-size: 10vw;
+    color: gray;
+    opacity: .3;
+}
+
+.or-Container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.or-container1{
+    height: 80px;
+    width: 80%;
+}
+.or-Container2 {
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    margin: 10px;
+ 
+}
+ 
+.or-photo {
+    height: 90%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border-radius: .2em;
+ 
+}
+.or-btn{
+    height: 50%;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+}
+ 
+#summ-btn {
+    width: 100%;
+    height: 100%;
+    border-radius: .2em;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border: none;
+    background-color: rgb(8, 153, 8);
+    color: ghostwhite;
+    font-weight: bold;
+}
+ 
+#orphoto1 {
+    height: 100%;
+    width: 100%;
+}
+ 
+.or-details {
+    height: 80%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color:gold; */
+}
+ 
+.or-details-Name {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    text-align: left;
+}
+ 
+.or-details-full {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    align-items: end;
+    /* background-color: magenta; */
+}
+.or-seating{
+    display:  flex;
+    flex-direction: column;
+}

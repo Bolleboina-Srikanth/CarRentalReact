@@ -1,0 +1,66 @@
+.table-parent{
+    display: flex;flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+}
+th{
+    background-color: royalblue;
+    color: ghostwhite;
+}
+tr {
+    border-bottom: 1.5px solid #E5E7EB;
+    height: 9vh;
+  }
+  .table-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    padding: 2px;
+  }
+  .pagination{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  .selectoptions{
+    width: 3vw;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border-radius: .2em;
+  }
+  #searchinput{
+    /* border: 1.8px solid #F0F1F3;
+    border-radius: .3em;
+    height: 7vh;
+    color: #6B7280;
+    font-weight: 500; */
+    border: none;
+ padding: .5rem;
+ border-radius: 1rem;
+ background: #e8e8e8;
+ box-shadow: 20px 20px 60px #c5c5c5,  -20px -20px 60px #ffffff;
+ transition: 0.3s;
+ border: 1.8px solid #F0F1F3
+  }
+
+  #searchinput:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+       inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+   }
+
+  .table-card{
+    width: 90%;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+  }

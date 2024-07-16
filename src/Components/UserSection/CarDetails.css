@@ -1,0 +1,151 @@
+.carDetalis-p-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 15vh;
+}
+.car-container{
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+    height: 30vh;
+    border-radius: 1em;
+}
+.car-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.car-details{
+    width: 75%;
+    padding: 5px;
+}
+.car-name{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    line-height: 3;
+}
+.noofreviews{
+    color: gray;
+    font-size: 13px;
+}
+.car-full-details{
+    display: flex;
+    height: 10vh;
+}
+.seating{
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+    text-align: left;
+}
+.car-policy{
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border-radius: 1em;
+    height: 98vh;
+    width: 95%;
+     margin-top: 1vh;
+     margin-bottom: 1vh;
+    } 
+.selectdate{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 9px;
+    
+}
+.select-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 18vh;
+}
+.car-edit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 8vh;
+    border: none;
+    border-radius: .4em;
+    background-color: tomato;
+    color: white;
+}
+.font-color-car{
+    color: gray;
+}
+.car-cancellation{
+    text-align: left;
+    padding: 10px;
+}
+.cancel-text{
+    width: 80%;
+    margin-left: 2.8vw;
+}
+.confirm-booking{
+    display: flex;
+    justify-content:end;
+    height: 8vh;
+    width: 99.5%;
+}
+.confirm-btn{
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: .4em;
+}
+.stateEdit{
+    display: flex;
+    justify-content: space-between;
+}
+#stateEdit{
+    border: none;
+    width: 13vw;
+    height: 6vh;
+    background-color: rgb(54, 201, 227);
+    outline: none;
+    text-align: center;
+   border-radius: .3em;
+   color: ghostwhite;
+   font-weight: bold;
+}
+.Prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 14vw;
+}
+.p-hour, .p-day{
+    height: 9vh;
+    width: 6.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+    border-radius: .3em;
+    cursor: pointer;
+    /* color: ghostwhite; */
+}
+#p-bg-c{
+    background-color: royalblue;
+    color: ghostwhite;
+}
+
+
+.cardetails-d-p{
+    width: 17vw;
+    height: 8vh;
+    border: 1px solid silver;
+    border-radius: .2em;
+}

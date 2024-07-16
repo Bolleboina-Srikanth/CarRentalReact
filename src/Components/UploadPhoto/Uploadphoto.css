@@ -1,0 +1,22 @@
+.uploadphoto{
+    width: 35vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.uploadphoto-l{
+    position: absolute;
+}
+.up-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+#img-up{
+    width: 14vw;
+    height: 36vh;
+}

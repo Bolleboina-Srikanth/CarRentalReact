@@ -1,0 +1,14 @@
+
+.table-card-b{
+    width: 90%;
+    box-shadow: 0 0 10px rgb(220, 216, 216);
+}
+
+.d-invoice{
+    border-radius: .3em;
+    border: none;
+    color: ghostwhite;
+    background-color: green;
+    font-size: 10px;
+    padding: 5px;
+}
